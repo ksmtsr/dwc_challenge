@@ -37,3 +37,26 @@ nav a {
   font-size: 16px;
   margin-left: 60px;
 }
+
+.main-visual {
+  width: 100%;
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual-content {
+  text-align: center;
+  padding-top: 200px;
+  color: #FAFAFA;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.main-visual-text {
+  font-size: 20px;
+  color: #FAFAFA;
+  text-align: center;
+  margin-top: 10px;
+}
