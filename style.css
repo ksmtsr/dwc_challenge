@@ -7,9 +7,33 @@
 header {
   width: 100%;
   height: 70px;
+  display: flex;
+  flex-direction: column;
   background-color: #EC715F;
+  align-items: center;
+}
+
+.header-inner {
+  width: 1024px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width:160px;
 }
 
 nav {
-  width: 1024px;
+  margin-left: auto;
+}
+
+li {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #FAFAFA;
+  font-size: 16px;
+  margin-left: 60px;
 }
