@@ -65,11 +65,10 @@ nav a {
   background-color: #ECEFF1;
 }
 
-.portfolio-title {
-  width: 920px;
+.title {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
-  margin: 0 auto;
   padding-top: 90px;
   padding-bottom: 8px;
   font-size: 32px;
@@ -79,7 +78,7 @@ nav a {
   left: 0;
 }
 
-.portfolio-title::before{
+.title::before{
   border-bottom: 3px solid #EC715F;
   position: absolute;
   bottom: 0;
@@ -87,21 +86,51 @@ nav a {
   width: 70px;
 }
 
-.portfolio-text {
+.text {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
 }
 
 .flex-container {
-  justify-content: center;
+  width: 920px;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .flex-item img {
   width: 300px;
   height: 250px;
-  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 10px;
+}
+
+.strength {
+  width: 980px;
+  text-align: center;
+}
+
+i {
+  font-size: 60px;
+}
+
+.strength1 {
+  width: 320px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.strength-title p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.strength-text {
+  display: inline-block;
+  text-align: left;
 }
