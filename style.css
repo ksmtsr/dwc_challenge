@@ -105,10 +105,11 @@ nav a {
 }
 
 .flex-item img {
-  width: 300px;
-  height: 250px;
+  width: 280px;
+  height: 230px;
+  margin-bottom: 5px;
   margin-right: 10px;
-  margin-bottom: 10px;
+  object-fit: cover;
 }
 
 .strength {
@@ -119,7 +120,7 @@ nav a {
   margin-bottom: 90px;
 }
 
-i {
+.strength i {
   font-size: 60px;
 }
 
@@ -238,6 +239,60 @@ footer {
   height: 60px;
   color: white;
   background-color: #EC715F;
+  padding-top: 20px;
   text-align: center;
-  padding:20px 0;
+}
+
+@media screen and (max-width:767px) {
+
+  body {
+    max-width: 90%;
+  }
+
+  header {
+    height: 50px;
+    display: block;
+  }
+
+  .header-inner {
+    width: 90%;
+    padding: 0 5%;
+  }
+
+  .logo img {
+    height: 50px;
+  }
+
+  .nav-list-item {
+    display:none;
+  }
+
+  .hamburger-menu {
+    width: 40px;
+    height: 40px;
+    float: right;
+    border: 1px solid #fafafa;
+    margin: 5px auto;
+  }
+
+  .menu-line {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #fafafa;
+    margin: 5px auto;
+  }
+  .menu-line:first-child {
+    margin-top: 10px;
+  }
+
+  .main-visual-content {
+    width: 90%;
+  }
+
+  .main-visual {
+    background-image: url(img/code.png);
+    background-size: cover;
+    background-position: center;
+  }
 }
