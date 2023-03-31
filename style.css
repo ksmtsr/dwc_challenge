@@ -128,9 +128,10 @@ nav a {
   width: 320px;
   height: auto;
   margin-right: 10px;
+
 }
 
-.strength-title p {
+.strength p {
   font-size: 20px;
   font-weight: bold;
   padding-top: 10px;
@@ -246,7 +247,7 @@ footer {
 @media screen and (max-width:767px) {
 
   body {
-    max-width: 90%;
+    width: 90%;
   }
 
   header {
@@ -270,7 +271,7 @@ footer {
   .hamburger-menu {
     width: 40px;
     height: 40px;
-    float: right;
+    text-align: right;
     border: 1px solid #fafafa;
     margin: 5px auto;
   }
@@ -286,13 +287,38 @@ footer {
     margin-top: 10px;
   }
 
-  .main-visual-content {
-    width: 90%;
-  }
-
   .main-visual {
+    width: 90%;
     background-image: url(img/code.png);
     background-size: cover;
     background-position: center;
   }
+
+  .main-visual-content {
+    font-size: 40px;
+  }
+
+  .main-visual-text {
+    font-size: 18px;
+  }
+
+  .flex-container {
+    width: 90px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .strength {
+    width: 90%;
+    display: block;
+    text-align: center;
+    margin-bottom: 90px;
+  }
+
+  .profile {
+    width: 90%;
+    display: block;
+  }
+
+
 }
